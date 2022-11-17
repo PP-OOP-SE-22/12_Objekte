@@ -1,17 +1,17 @@
 
 /***** Erinnerung: Arrays *******/
 
-// let arr;
-// arr = ["Ich","bin","Max"];
+let arr;
+arr = ["Ich","bin","Max"];
 // output(arr);
 // output(arr[0]);
 // output("------------");
 
-// // nested arrays
-// arr =   [
-//                 ["Ich","bin","Max"],
-//                 ["Ich","bin","Moritz"]
-//         ];
+// nested arrays
+arr =   [
+                ["Ich","bin","Max"],
+                ["Ich","bin","Moritz"]
+        ];
 
 // output(arr[0][2]);
 // output(arr[1][2]);
@@ -26,6 +26,18 @@
 
 /***** Objekte 1 Daten/Funktionen *******/
 
+let person = {
+        firstName:"Hind",
+        familyName: "Aarif",
+        salary: [120000,160000]
+}
+output(person);
+output(person.firstName);
+output(person.familyName);
+
+const txt = "Ich bin " + person.firstName + " " + person.familyName + " und verdiene " + person.salary[1] + "p.a";
+
+output(text);
 
 
 /** Ausgabe */
