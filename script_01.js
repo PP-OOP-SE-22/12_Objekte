@@ -35,7 +35,7 @@ output(person);
 output(person.firstName);
 output(person.familyName);
 
-const txt = "Ich bin " + person.firstName + " " + person.familyName + " und verdiene " + person.salary[1] + "p.a";
+const text = "Ich bin " + person.firstName + " " + person.familyName + " und verdiene " + person.salary[1] + " p.a";
 
 output(text);
 
