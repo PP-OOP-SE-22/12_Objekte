@@ -30,7 +30,7 @@ let person = {
         firstName:"Hind",
         familyName: "Aarif",
         salary: [120000,160000]
-}
+}      
 output(person);
 output(person.firstName);
 output(person.familyName);
@@ -38,9 +38,11 @@ output(person.familyName);
 const text = "Ich bin " + person.firstName + " " + person.familyName + " und verdiene " + person.salary[1] + " p.a";
 
 output(text);
-
+// output(person.sayHello());
 
 /** Ausgabe */
 function output(outputData) {
         console.log(outputData);
 }
+
+
